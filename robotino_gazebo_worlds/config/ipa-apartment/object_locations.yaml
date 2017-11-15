@@ -397,13 +397,52 @@ simple_red_box:
 orange_cylinder:
   model: orange_cylinder
   model_type: urdf
-  position: [2, -1.5, 0.03]
+  position: [1.5, -1.5, 0.03]
   orientation: [0, 0, 0]
 
-white_ball:
-  model: white_ball
+blue_ball:
+  model: blue_ball
   model_type: urdf
-  position: [2, 0, 0.03]
+  position: [2.2, 0.4, 0.03]
   orientation: [0, 0, 0]
+
+green_cylinder:
+  model: green_cylinder
+  model_type: urdf
+  position: [2.6, -4.8, 0.03]
+  orientation: [0, 0, 0]
+
+red_ball:
+  model: red_ball
+  model_type: urdf
+  position: [-1.7, -3.7, 0.03]
+  orientation: [0, 0, 0]
+
+simple_blue_box2:
+  model: simple_blue_box2
+  model_type: urdf
+  position: [-0.4, -4.5, 0.03]
+  orientation: [0, 0, 1.2]
+
+simple_yellow_box:
+  model: simple_yellow_box
+  model_type: urdf
+  position: [3.7, 0.6, 0.03]
+  orientation: [0, 0, 0.6]
+
+simple_green_box:
+  model: simple_green_box
+  model_type: urdf
+  position: [0.4, 0.5, 0.03]
+  orientation: [0, 0, 0.2]
+
+yellow_cylinder:
+  model: yellow_cylinder
+  model_type: urdf
+  position: [4, -1.0, 0.03]
+  orientation: [0, 0, 0]
+
+
+
 
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?> 
+<robot name="yellow_cylinder" static="false">
+  <link name="yellow_cylinder">
+     <inertial>
+       <origin xyz="0 0 0" />
+      <mass value="2.0" />
+       <inertia  ixx="20.0" ixy="5.0"  ixz="5.0"  iyy="20.0"  iyz="5.0"  izz="100.0" />
+       </inertial>
+     <visual>
+       <geometry>
+         <cylinder length="0.10" radius="0.15" />
+       </geometry>
+       </visual>
+       <collision>
+       <geometry>
+         <cylinder length="0.10" radius="0.15" />
+       </geometry>
+      </collision>
+     </link>
+   <gazebo reference="yellow_cylinder">
+      <material>Gazebo/Yellow</material>
+    </gazebo>
+  </robot>

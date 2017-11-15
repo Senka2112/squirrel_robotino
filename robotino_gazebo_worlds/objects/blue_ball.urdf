@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<robot name="white_ball" static="false">
-    <link name="white_ball">
+<robot name="blue_ball" static="false">
+    <link name="blue_ball">
       <inertial>
         <mass value="0.01" />
         <origin xyz="0 0 0" />
@@ -21,8 +21,8 @@
       </collision>
     </link>
 
-    <gazebo reference="white_ball">
-      <material>Gazebo/White</material>
+    <gazebo reference="blue_ball">
+      <material>Gazebo/Blue</material>
     </gazebo>
  </robot>
 

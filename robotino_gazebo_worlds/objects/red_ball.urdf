@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot name="red_ball" static="false">
+    <link name="red_ball">
+      <inertial>
+        <mass value="0.01" />
+        <origin xyz="0 0 0" />
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+          iyy="1.0" iyz="0.0" 
+          izz="1.0" />
+      </inertial>
+      <visual>
+        <geometry>
+          <sphere radius="0.20" />
+        </geometry>
+        <material name="red" />
+      </visual>
+      <collision>
+        <geometry>
+          <sphere radius="0.20" />
+        </geometry>
+      </collision>
+    </link>
+
+    <gazebo reference="red_ball">
+      <material>Gazebo/Red</material>
+    </gazebo>
+ </robot>
+
+ 
