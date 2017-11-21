@@ -1,26 +1,22 @@
 <?xml version="1.0"?>
 <robot name="blue_ball" static="false">
     <link name="blue_ball">
-      <inertial>
-        <mass value="0.01" />
-        <origin xyz="0 0 0" />
-        <inertia ixx="1.0" ixy="0.0" ixz="0.0"
-          iyy="1.0" iyz="0.0" 
-          izz="1.0" />
-      </inertial>
-      <visual>
-        <geometry>
-          <sphere radius="0.150" />
-        </geometry>
-        <material name="red" />
-      </visual>
-      <collision>
-        <geometry>
-          <sphere radius="0.10" />
-        </geometry>
+ <inertial>
+       <origin xyz="0 0 0" />
+      <mass value="2.0" />
+       <inertia  ixx="20.0" ixy="5.0"  ixz="5.0"  iyy="20.0"  iyz="5.0"  izz="100.0" />
+       </inertial>
+     <visual>
+       <geometry>
+         <cylinder length="0.30" radius="0.15" />
+       </geometry>
+       </visual>
+       <collision>
+       <geometry>
+         <cylinder length="0.30" radius="0.15" />
+       </geometry>
       </collision>
-    </link>
-
+     </link>
     <gazebo reference="blue_ball">
       <material>Gazebo/Blue</material>
     </gazebo>
