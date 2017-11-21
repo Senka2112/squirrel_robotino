@@ -409,7 +409,7 @@ blue_ball:
 green_cylinder:
   model: green_cylinder
   model_type: urdf
-  position: [3.8, -4.8, 0.03]
+  position: [3.5, -5.0, 0.03]
   orientation: [0, 0, 0]
 
 red_ball:
