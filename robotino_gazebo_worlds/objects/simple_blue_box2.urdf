@@ -8,12 +8,12 @@
        </inertial>
      <visual>
        <geometry>
-         <box size="0.2 0.3 0.1" />
+         <box size="0.3 0.3 0.1" />
        </geometry>
        </visual>
        <collision>
        <geometry>
-          <box size="0.2 0.3 0.1" />
+          <box size="0.3 0.3 0.1" />
        </geometry>
       </collision>
      </link>

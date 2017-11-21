@@ -8,12 +8,12 @@
        </inertial>
      <visual>
        <geometry>
-         <cylinder length="0.30" radius="0.10" />
+         <cylinder length="0.30" radius="0.20" />
        </geometry>
        </visual>
        <collision>
        <geometry>
-         <cylinder length="0.30" radius="0.10" />
+         <cylinder length="0.30" radius="0.20" />
        </geometry>
       </collision>
      </link>

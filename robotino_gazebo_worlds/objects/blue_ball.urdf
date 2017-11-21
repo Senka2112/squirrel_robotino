@@ -10,7 +10,7 @@
       </inertial>
       <visual>
         <geometry>
-          <sphere radius="0.10" />
+          <sphere radius="0.150" />
         </geometry>
         <material name="red" />
       </visual>
